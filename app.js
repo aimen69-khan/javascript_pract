@@ -134,7 +134,7 @@ if(!workFound){
   console.log(userOnput+ " :Not Found!");
 }
 
-for(var i=1; i<=5; i++){
+for(var i=1; i<=8; i++){
   var star = ' ';
   for(var j=1; j<=i; j++){
     star+= " *"
@@ -144,7 +144,43 @@ for(var i=1; i<=5; i++){
 
 
 var name = "hello WOrLd";
-console.log(name.replaceAll('o', "U"));
+console.log(name.chartAt);
 
 var type = "My name is Ahmed";
 
+
+var name = [3, 9, 6];
+var userInput = prompt("Pick Any Number Between 1 - 10");
+
+if(name === userInput){
+  console.log("Found!");
+}else{
+  console.log("Not Found!");
+}
+
+
+var name = [3, 9, 6];
+var userInput = prompt("Pick Any Number Between 1 - 10", 6);
+
+if(name.includes(Number(userInput))){
+  console.log("Found!");
+
+}else{
+  console.log("Not Found!");
+}
+
+var num = Math.random() * 10;
+num = Math.ceil(num);
+
+var userInput = Number(prompt("Guess Any Number", num));
+if (num === userInput){
+  console.log("Win")
+} else{
+  console.log("Try Again")
+}
+
+
+
+var js = 123456789;
+console.log(js .toString());
+console.log(typeof(js));
