@@ -142,6 +142,19 @@ for(var i=1; i<=8; i++){
   console.log(star);
 }
 
+for(var i=0; i<5; i++){
+  for(var j=0; j<4; j++){
+    for(var t=0; t<5; t++){
+      for(var k=0; k<=2; k++){
+        console.log("Hello World!");
+      }
+      console.log("Hello World!");
+    }
+    console.log("Hello World!");
+  }
+  console.log("Hello World!");
+}
+
 
 var name = "hello WOrLd";
 console.log(name.chartAt);
@@ -194,21 +207,87 @@ console.log(Math.floor(js));
 var num = 5.8;
 console.log(Math.ceil(num));
 
+
 console.log(new Date().getDay());
-
 console.log(new Date().getMonth());
-
 console.log(new Date().getDate());
-
 console.log(new Date().getFullYear());
-
 console.log(new Date().getHours());
-
 console.log(new Date().getMinutes());
-
 console.log(new Date().getSeconds());
-
 console.log(new Date().getMilliseconds());
-
 console.log(new Date().getTime());
 
+
+var name = "AHMED RAZA";
+console.log(name.toLowerCase());
+
+
+
+var name = 'Karachi';
+console.log(name .charAt(7));
+
+var num = "karachi";
+console.log(num.replace('k', 'KL'));
+
+
+var what = 45.4;
+console.log(Math.round(4.3));
+
+var what = 4.6;
+console.log(Math.floor(3.8));
+
+var what = 5.3;
+console.log(Math.ceil(4.2));
+
+
+
+function sum(a,b){
+  return a + b;
+  
+}function subt(a,b){
+  return a - b;
+  
+}function mult(a,b){
+  return a * b;
+  
+}function div(a,b){
+  return a / b;
+  
+}
+var userInput_1 = +prompt("Enter Your First Number?", 55);
+var userInput_2 = +prompt("Enter Your Second Number?", 30);
+var userInput_3 = prompt("Enter Operator (+, -, *, /)", "+");
+
+for(var i=0; i<=4; i++){
+  for(var j=0; j<=2; j++){
+    console.log(userInput_1, userInput_3, userInput_2);
+   if(userInput_3 === "+"){
+  console.log(sum(userInput_1, userInput_2));
+}
+  else if(userInput_3 === "-"){
+  console.log(sub(userInput_1, userInput_2));
+}
+   else if(userInput_3 === "*"){
+  console.log(mult(userInput_1, userInput_2));
+}
+  else if(userInput_3 === "/"){
+  console.log(div(userInput_1, userInput_2));
+}else{
+  console.log("Invalid");
+}
+ }
+  }
+
+var arr = ['karachi', 'lahore'];
+var userInput = prompt("Enter Your City", 'karachi');
+var found = false;
+for(var i=0; i<=arr.length; i++){
+  if(arr[i] === userInput){
+    console.log("I Also live in " +userInput);
+    found = true;
+    break;
+  }
+}if(!found){
+  console.log("City Not Found");
+}
