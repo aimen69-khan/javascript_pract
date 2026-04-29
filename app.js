@@ -1,3 +1,4 @@
+function aAlert(){
 alert(animal);
 alert("Hi World!");
 var b = prompt("enter your age");
@@ -10,7 +11,10 @@ if(true){
 }else{
   console.log("Hello world!");
 }
+}
 
+
+function ifElse(){
 if(2===2){
   if(2===2){
   console.log(userInput);
@@ -38,8 +42,10 @@ var a=98;
 var a=78;
 console.log(a);
 
+}
+}
 
-
+function nastedIf(){
 if(2!==2){
   if(3!==3){
     if(4!==4){
@@ -53,8 +59,10 @@ if(2!==2){
 }else{
   console.log("All conditions False working!")
 }
+}
 
 
+function number(){
 var arr = ['Karachi', 'lahore', 'islambad'];
 
 console.log(typeof(arr[arr.length-1]));
@@ -70,13 +78,11 @@ for(var i = 0; i <= 3; i++){
   console.log('Hello world!');
 }
 
+// document.querySelector('body').style.background = "blueviolet";
+// document.getElementById("demo").style.color = "blue";
+}
 
-document.querySelector('body').style.background = "blueviolet";
-
-document.getElementById("demo").style.color = "blue";
-
-
-
+function Array(){
 var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
 var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
 var fullNames = [];
@@ -133,15 +139,9 @@ for(var a=0; a<country.length; a++){
 if(!workFound){
   console.log(userOnput+ " :Not Found!");
 }
-
-for(var i=1; i<=8; i++){
-  var star = ' ';
-  for(var j=1; j<=i; j++){
-    star+= " *"
-  }
-  console.log(star);
 }
 
+function nastedFor(){
 for(var i=0; i<5; i++){
   for(var j=0; j<4; j++){
     for(var t=0; t<5; t++){
@@ -160,18 +160,10 @@ var name = "hello WOrLd";
 console.log(name.chartAt);
 
 var type = "My name is Ahmed";
-
-
-var name = [3, 9, 6];
-var userInput = prompt("Pick Any Number Between 1 - 10");
-
-if(name === userInput){
-  console.log("Found!");
-}else{
-  console.log("Not Found!");
 }
 
 
+function randomNumber(){
 var name = [3, 9, 6];
 var userInput = prompt("Pick Any Number Between 1 - 10", 6);
 
@@ -191,7 +183,10 @@ if (num === userInput){
 } else{
   console.log("Try Again")
 }
+ }
 
+
+function tellTime(){
 
 var js = 123456789;
 console.log(js .toString());
@@ -240,7 +235,9 @@ console.log(Math.floor(3.8));
 var what = 5.3;
 console.log(Math.ceil(4.2));
 
+}
 
+function work(){
 
 function sum(a,b){
   return a + b;
@@ -278,7 +275,11 @@ for(var i=0; i<=4; i++){
 }
  }
   }
+   }
 
+
+function city(){
+  
 var arr = ['karachi', 'lahore'];
 var userInput = prompt("Enter Your City", 'karachi');
 var found = false;
@@ -291,3 +292,5 @@ for(var i=0; i<=arr.length; i++){
 }if(!found){
   console.log("City Not Found");
 }
+}
+city();
