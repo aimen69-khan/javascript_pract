@@ -3,11 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: black;
-}
+
 .navbar {
-  background-color: darkred;
+  background-color: black;
   color: black;
   padding: 15px 0;
 }
@@ -19,28 +17,23 @@ body{
   align-items: center;
   justify-content: space-between;
 }
-
-.logo {
-  font-size: 26px;
-  font-weight: bold;
-}
 .nav-links {
   list-style: none;
   display: flex;
+  justify-content: center;
   gap: 25px;
 }
 .nav-links a {
   text-decoration: none;
-  color: black;
-  transition: 0.3s ease-in-out;
+  color: white;
+  transition: 0.4s ease-in-out;
 }
 .nav-links a:hover{
-  color: #6688ff;
+  color: lightblue;
 }
 
-h1{
- text-align: center;
- margin-top: 280px;
- color: white;
- text-shadow:1px 1px 3px #666666;
+.hero-section img{
+  width: 100%;
+  height: auto;
+  height: 100vh;
 }

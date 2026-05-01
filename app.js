@@ -1,5 +1,5 @@
 function aAlert(){
-alert(animal);
+alert('animal');
 alert("Hi World!");
 var b = prompt("enter your age");
 console.log(number + age ('2'));
@@ -82,7 +82,7 @@ for(var i = 0; i <= 3; i++){
 // document.getElementById("demo").style.color = "blue";
 }
 
-function Array(){
+function aArray(){
 var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
 var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
 var fullNames = [];
@@ -234,8 +234,8 @@ console.log(Math.floor(3.8));
 
 var what = 5.3;
 console.log(Math.ceil(4.2));
-
 }
+
 
 function work(){
 
@@ -279,13 +279,12 @@ for(var i=0; i<=4; i++){
 
 
 function city(){
-  
 var arr = ['karachi', 'lahore'];
 var userInput = prompt("Enter Your City", 'karachi');
 var found = false;
 for(var i=0; i<=arr.length; i++){
-  if(arr[i] === userInput){
-    console.log("I Also live in " +userInput);
+  if(arr[i] === userInput.toLowerCase){
+    console.log("I Also live in " +userInput.toLowerCase);
     found = true;
     break;
   }
@@ -293,4 +292,28 @@ for(var i=0; i<=arr.length; i++){
   console.log("City Not Found");
 }
 }
-city();
+
+
+// var an = 40;
+function print(){
+  an = 30;
+  console.log(an);
+  var an = 90;
+  console.log(an);
+}
+
+
+function favFruite(){
+var arr = ['grape', 'mango'];
+var found = false;
+var userInput = prompt("Enter Your Fav Fruite??".toLowerCase());
+for(var i=0; i<=arr.length; i++){
+  if(arr[i] === userInput.toLowerCase()){
+    console.log("I Also like "+userInput);
+    found = true;
+    break;
+  }
+}if(!found){
+  console.log(userInput+" Not Found");
+}
+}

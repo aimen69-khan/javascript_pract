@@ -1,6 +1,10 @@
 message = "Hello World!"
 print(message)
-print("My Name is Ahmed Raza")
+
+print("this is python")
+
+what = 98
+print(what)
 
 def sum(a, b):
     return a + b
