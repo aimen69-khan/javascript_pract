@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.navbar {
+body {
   background-color: black;
+}
+.navbar {
+  background-color: blue;
   color: black;
   padding: 15px 0;
 }
@@ -29,11 +31,5 @@
   transition: 0.4s ease-in-out;
 }
 .nav-links a:hover{
-  color: lightblue;
-}
-
-.hero-section img{
-  width: 100%;
-  height: auto;
-  height: 100vh;
+  color: red;
 }

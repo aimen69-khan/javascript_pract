@@ -256,6 +256,7 @@ var userInput_1 = +prompt("Enter Your First Number?", 55);
 var userInput_2 = +prompt("Enter Your Second Number?", 30);
 var userInput_3 = prompt("Enter Operator (+, -, *, /)", "+");
 
+if(!isNaN(userInput_1) && !isNaN(userInput_2) && userInput_3){
 for(var i=0; i<=4; i++){
   for(var j=0; j<=2; j++){
     console.log(userInput_1, userInput_3, userInput_2);
@@ -275,7 +276,10 @@ for(var i=0; i<=4; i++){
 }
  }
   }
+   }else{
+     console.log("Enter A Number!!");
    }
+    }
 
 
 function city(){
