@@ -37,7 +37,7 @@ age=78;
 
 const name=98;
 
-var a=09;
+var a=39;
 var a=98;
 var a=78;
 console.log(a);
@@ -154,13 +154,12 @@ for(var i=0; i<5; i++){
   }
   console.log("Hello World!");
 }
-
+}
 
 var name = "hello WOrLd";
-console.log(name.chartAt);
 
 var type = "My name is Ahmed";
-}
+
 
 
 function randomNumber(){
@@ -277,7 +276,7 @@ for(var i=0; i<=4; i++){
  }
   }
    }else{
-     console.log("Enter A Number!!");
+     console.log("Enter an Number and opreator!!");
    }
     }
 
@@ -321,3 +320,18 @@ for(var i=0; i<=arr.length; i++){
   console.log(userInput+" Not Found");
 }
 }
+
+
+
+function image_1(){
+  var img = document.getElementById("image");
+  img.src = "https://media.ed.edmunds-media.com/bugatti/chiron/2024/fe/2024_bugatti_chiron_f34_fe_110424_1600.jpg";
+  img.style.width = "300px";
+  img.style.width = "500px"
+}
+function image_2(){
+  var img = document.getElementById("image");
+  img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdW9fs0zP55tUBL2eUdZjzABOjQn5QUVnZxg&s";
+  img.style.width = "300px"
+}
+

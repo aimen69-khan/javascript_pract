@@ -1,0 +1,26 @@
+[{
+
+    "name": "Facebook",
+    "type": "app",
+    "age": 22,
+    "good": true
+
+},
+{
+    "name": "Youtube",
+    "type": "app",
+    "age": 21,
+    "good": true 
+},
+{
+    "name": "Whatsapp",
+    "type": "app",
+    "age": 17,
+    "good": true 
+},
+{
+    "name": "Google",
+    "type": "app",
+    "age": 27,
+    "good": true 
+}]

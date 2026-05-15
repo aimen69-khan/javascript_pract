@@ -1,11 +1,3 @@
-message = "Hello World!"
-print(message)
-
-print("this is python")
-
-what = 98
-print(what)
-
 def sum(a, b):
     return a + b
 
@@ -36,6 +28,5 @@ elif userInput_3 == "/":
 
 else:
     print("Invalid")
-    
     
     
