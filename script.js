@@ -350,15 +350,6 @@ function cityblur(){
 
 
 
-function para(){
-  var par = document.getElementById("para_1");
-  para_1.innerText = "lorem20 kdjjdvkkj";
-}
-function para2(){
-  para_1.innerText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente asperiores dolor debitis vitae harum dolorum, sit facere dolorem. Ipsa praesentium, ex, sapiente modi tempore ab? Aperiam nulla error laudantium aliquam quia asperiores, eaque iure distinctio. Maxime eius officiis nam id! At dolore ducimus nemo numquam quos quia libero harum, impedit iste esse! Quisquam aperiam quae praesentium minima recusandae voluptatum sapiente autem omnis eligendi. Corporis distinctio voluptates soluta id, voluptatem cumque omnis delectus accusantium voluptate, perferendis tempora fugiat dolore nemo blanditiis esse praesentium, nesciunt labore! Nihil, voluptatem, fuga quisquam, minus porro accusamus ullam minima ratione iusto illo vitae, dicta natus. Error!";
-
-}
-
 function tellOn(){
 let lang = ["html", "css", "javascript", "typescript", "python", "nodejs"];
 let flag = false;
@@ -376,14 +367,14 @@ if(!flag){
 }
 }
 
-let num = Math.random() * 10;
-num = Math.ceil(num);
-let userInput = +prompt("Enter Random Number!",num);
-if(num === userInput){
-  console.log("Your Number "+userInput+" Found!");
-}else{
-  console.log("NOT Found!");
-}
+// let num = Math.random() * 10;
+// num = Math.ceil(num);
+// let userInput = +prompt("Enter Random Number!",num);
+// if(num === userInput){
+//   console.log("Your Number "+userInput+" Found!");
+// }else{
+//   console.log("NOT Found!");
+// }
 
 
 function ada(){
@@ -472,5 +463,25 @@ function ada(){
 //   .then(value => values.array.forEach(value => console.log(value.name)));
 
 
+
+
+
+// let bikeNames = ["kawasaki", "suzuki", "hispeed", "ninja",];
+// let flag = false;
+// let userInput = prompt("Enter A bike name?".toLowerCase());
+// for(var i=0; i<=bikeNames.length; i++){
+//    if(bikeNames[i] === userInput.toLowerCase()){
+//     console.log("Your Bike "+userInput+" Found!");
+//      flag = true;
+//      break;
+//    }
+// }if(!flag){
+//   console.log("Not Found!");
+// }
+
+
+// var getDate = new Date();
+// getDate.getTime();
+// console.log(getDate)
 
 

@@ -1,337 +1,388 @@
-function aAlert(){
-alert('animal');
-alert("Hi World!");
-var b = prompt("enter your age");
-console.log(number + age ('2'));
+// function aAlert(){
+// alert('animal');
+// alert("Hi World!");
+// var b = prompt("enter your age");
+// console.log(number + age ('2'));
 
-var userInput;
-userInput
-if(true){
-  console.log(userInput);
-}else{
-  console.log("Hello world!");
-}
-}
+// var userInput;
+// userInput
+// if(true){
+//   console.log(userInput);
+// }else{
+//   console.log("Hello world!");
+// }
+// }
 
 
-function ifElse(){
-if(2===2){
-  if(2===2){
-  console.log(userInput);
-  console.log("My name is Ahmed Raza and I am going to saylani mass it training and I am learning web development.");
-  }else{
-    console.log("Inner If Not Working");
-  }
+// function ifElse(){
+// if(2===2){
+//   if(2===2){
+//   console.log(userInput);
+//   console.log("My name is Ahmed Raza and I am going to saylani mass it training and I am learning web development.");
+//   }else{
+//     console.log("Inner If Not Working");
+//   }
   
-}else{
-  console.log("NOT Working");
-}
+// }else{
+//   console.log("NOT Working");
+// }
 
-let userInput = +prompt("enter your number");
-for(var i=1; i<=10; i++){
-  console.log(userInput+" x " +i+ " = " +userInput*i)
-
-
-let age=23;
-age=78;
-
-const name=98;
-
-var a=39;
-var a=98;
-var a=78;
-console.log(a);
-
-}
-}
-
-function nastedIf(){
-if(2!==2){
-  if(3!==3){
-    if(4!==4){
-      console.log("Hello World!");
-    }else{
-      console.log("not working 4!");
-    }
-  }else{
-    console.log('Not working 3!');
-  }
-}else{
-  console.log("All conditions False working!")
-}
-}
+// let userInput = +prompt("enter your number");
+// for(var i=1; i<=10; i++){
+//   console.log(userInput+" x " +i+ " = " +userInput*i)
 
 
-function number(){
-var arr = ['Karachi', 'lahore', 'islambad'];
+// let age=23;
+// age=78;
 
-console.log(typeof(arr[arr.length-1]));
+// const name=98;
 
-if(2===2){
-  var userInput = +prompt("enter your number", 2);
-  console.log(userInput);
-}
-var arr = ['mango', 'banana', 'grape'];
+// var a=39;
+// var a=98;
+// var a=78;
+// console.log(a);
 
-for(var i = 0; i <= 3; i++){
-  console.log(arr);
-  console.log('Hello world!');
-}
+// }
+// }
 
-// document.querySelector('body').style.background = "blueviolet";
-// document.getElementById("demo").style.color = "blue";
-}
-
-function aArray(){
-var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
-var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
-var fullNames = [];
-for (var i = 0; i < firstNames.length; i++) {
-  for (var j = 0; j < lastNames.length; j++) {
-    fullNames.push(firstNames[i] + lastNames[j]);
-  }
-}
-  console.log(fullNames);
+// function nastedIf(){
+// if(2!==2){
+//   if(3!==3){
+//     if(4!==4){
+//       console.log("Hello World!");
+//     }else{
+//       console.log("not working 4!");
+//     }
+//   }else{
+//     console.log('Not working 3!');
+//   }
+// }else{
+//   console.log("All conditions False working!")
+// }
+// }
 
 
+// function number(){
+// var arr = ['Karachi', 'lahore', 'islambad'];
 
-var fruite = ['orange', 'mango', 'grape'];
-var userOutput = prompt("Enter Your Fav fruite");
-var flag = false;
-for(var j=0; j<fruite.length; j++){
-  if(fruite[j] === userOutput){
-    console.log("I Also like " +userOutput +".");
-    flag= true;
-    break;
-  }
-}
-if(!flag){
-  console.log(userOutput+ " :Not found!");
-}
-var arr = ['karachi', 'lahore', 'faisalabad', 'rawalpindi', 'multan', 'islamabad'];
-var found = false;
-var workAfter = false;
-var userInput = prompt("Enter Your City");
-for(var i=0; i<arr.length; i++){
-  if(arr[i] === userInput){
-    console.log("welcome to " +userInput +".");
-    found = true;
-    workAfter = true;
-    if(workAfter){
-      console.log("Found!");
-    }
-    break;
-  }
-}
-if(!found){
-  console.log(userInput +" :Not Found!");
-}
-var country = ['pakistan', 'china', 'japan', 'iran', 'usa'];
-var workFound = false;
-var userOnput = prompt("enter Your country");
-for(var a=0; a<country.length; a++){
-  if(country[a] === userOnput){
-    console.log("Welcome to " +userOnput)
-    workFound = true;
-    break;
-  }
-}
-if(!workFound){
-  console.log(userOnput+ " :Not Found!");
-}
-}
+// console.log(typeof(arr[arr.length-1]));
 
-function nastedFor(){
-for(var i=0; i<5; i++){
-  for(var j=0; j<4; j++){
-    for(var t=0; t<5; t++){
-      for(var k=0; k<=2; k++){
-        console.log("Hello World!");
-      }
-      console.log("Hello World!");
-    }
-    console.log("Hello World!");
-  }
-  console.log("Hello World!");
-}
-}
+// if(2===2){
+//   var userInput = +prompt("enter your number", 2);
+//   console.log(userInput);
+// }
+// var arr = ['mango', 'banana', 'grape'];
 
-var name = "hello WOrLd";
+// for(var i = 0; i <= 3; i++){
+//   console.log(arr);
+//   console.log('Hello world!');
+// }
 
-var type = "My name is Ahmed";
+// // document.querySelector('body').style.background = "blueviolet";
+// // document.getElementById("demo").style.color = "blue";
+// }
+
+// function aArray(){
+// var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+// var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+// var fullNames = [];
+// for (var i = 0; i < firstNames.length; i++) {
+//   for (var j = 0; j < lastNames.length; j++) {
+//     fullNames.push(firstNames[i] + lastNames[j]);
+//   }
+// }
+//   console.log(fullNames);
 
 
 
-function randomNumber(){
-var name = [3, 9, 6];
-var userInput = prompt("Pick Any Number Between 1 - 10", 6);
+// var fruite = ['orange', 'mango', 'grape'];
+// var userOutput = prompt("Enter Your Fav fruite");
+// var flag = false;
+// for(var j=0; j<fruite.length; j++){
+//   if(fruite[j] === userOutput){
+//     console.log("I Also like " +userOutput +".");
+//     flag= true;
+//     break;
+//   }
+// }
+// if(!flag){
+//   console.log(userOutput+ " :Not found!");
+// }
+// var arr = ['karachi', 'lahore', 'faisalabad', 'rawalpindi', 'multan', 'islamabad'];
+// var found = false;
+// var workAfter = false;
+// var userInput = prompt("Enter Your City");
+// for(var i=0; i<arr.length; i++){
+//   if(arr[i] === userInput){
+//     console.log("welcome to " +userInput +".");
+//     found = true;
+//     workAfter = true;
+//     if(workAfter){
+//       console.log("Found!");
+//     }
+//     break;
+//   }
+// }
+// if(!found){
+//   console.log(userInput +" :Not Found!");
+// }
+// var country = ['pakistan', 'china', 'japan', 'iran', 'usa'];
+// var workFound = false;
+// var userOnput = prompt("enter Your country");
+// for(var a=0; a<country.length; a++){
+//   if(country[a] === userOnput){
+//     console.log("Welcome to " +userOnput)
+//     workFound = true;
+//     break;
+//   }
+// }
+// if(!workFound){
+//   console.log(userOnput+ " :Not Found!");
+// }
+// }
 
-if(name.includes(Number(userInput))){
-  console.log("Found!");
+// function nastedFor(){
+// for(var i=0; i<5; i++){
+//   for(var j=0; j<4; j++){
+//     for(var t=0; t<5; t++){
+//       for(var k=0; k<=2; k++){
+//         console.log("Hello World!");
+//       }
+//       console.log("Hello World!");
+//     }
+//     console.log("Hello World!");
+//   }
+//   console.log("Hello World!");
+// }
+// }
 
-}else{
-  console.log("Not Found!");
-}
+// var name = "hello WOrLd";
 
-var num = Math.random() * 10;
-num = Math.ceil(num);
-
-var userInput = Number(prompt("Guess Any Number", num));
-if (num === userInput){
-  console.log("Win")
-} else{
-  console.log("Try Again")
-}
- }
-
-
-function tellTime(){
-
-var js = 123456789;
-console.log(js .toString());
-console.log(typeof(js));
-
-
-var java = 3.6;
-console.log(Math.round(java));
-
-var js = 4.7;
-console.log(Math.floor(js));
-
-var num = 5.8;
-console.log(Math.ceil(num));
-
-
-console.log(new Date().getDay());
-console.log(new Date().getMonth());
-console.log(new Date().getDate());
-console.log(new Date().getFullYear());
-console.log(new Date().getHours());
-console.log(new Date().getMinutes());
-console.log(new Date().getSeconds());
-console.log(new Date().getMilliseconds());
-console.log(new Date().getTime());
-
-
-var name = "AHMED RAZA";
-console.log(name.toLowerCase());
-
-
-
-var name = 'Karachi';
-console.log(name .charAt(7));
-
-var num = "karachi";
-console.log(num.replace('k', 'KL'));
-
-
-var what = 45.4;
-console.log(Math.round(4.3));
-
-var what = 4.6;
-console.log(Math.floor(3.8));
-
-var what = 5.3;
-console.log(Math.ceil(4.2));
-}
+// var type = "My name is Ahmed";
 
 
-function work(){
 
-function sum(a,b){
-  return a + b;
+// function randomNumber(){
+// var name = [3, 9, 6];
+// var userInput = prompt("Pick Any Number Between 1 - 10", 6);
+
+// if(name.includes(Number(userInput))){
+//   console.log("Found!");
+
+// }else{
+//   console.log("Not Found!");
+// }
+
+// var num = Math.random() * 10;
+// num = Math.ceil(num);
+
+// var userInput = Number(prompt("Guess Any Number", num));
+// if (num === userInput){
+//   console.log("Win")
+// } else{
+//   console.log("Try Again")
+// }
+//  }
+
+
+// function tellTime(){
+
+// var js = 123456789;
+// console.log(js .toString());
+// console.log(typeof(js));
+
+
+// var java = 3.6;
+// console.log(Math.round(java));
+
+// var js = 4.7;
+// console.log(Math.floor(js));
+
+// var num = 5.8;
+// console.log(Math.ceil(num));
+
+
+// console.log(new Date().getDay());
+// console.log(new Date().getMonth());
+// console.log(new Date().getDate());
+// console.log(new Date().getFullYear());
+// console.log(new Date().getHours());
+// console.log(new Date().getMinutes());
+// console.log(new Date().getSeconds());
+// console.log(new Date().getMilliseconds());
+// console.log(new Date().getTime());
+
+
+// var name = "AHMED RAZA";
+// console.log(name.toLowerCase());
+
+
+
+// var name = 'Karachi';
+// console.log(name .charAt(7));
+
+// var num = "karachi";
+// console.log(num.replace('k', 'KL'));
+
+
+// var what = 45.4;
+// console.log(Math.round(4.3));
+
+// var what = 4.6;
+// console.log(Math.floor(3.8));
+
+// var what = 5.3;
+// console.log(Math.ceil(4.2));
+// }
+
+
+// function work(){
+
+// function sum(a,b){
+//   return a + b;
   
-}function subt(a,b){
-  return a - b;
+// }function subt(a,b){
+//   return a - b;
   
-}function mult(a,b){
-  return a * b;
+// }function mult(a,b){
+//   return a * b;
   
-}function div(a,b){
-  return a / b;
+// }function div(a,b){
+//   return a / b;
   
-}
-var userInput_1 = +prompt("Enter Your First Number?", 55);
-var userInput_2 = +prompt("Enter Your Second Number?", 30);
-var userInput_3 = prompt("Enter Operator (+, -, *, /)", "+");
+// }
+// var userInput_1 = +prompt("Enter Your First Number?", 55);
+// var userInput_2 = +prompt("Enter Your Second Number?", 30);
+// var userInput_3 = prompt("Enter Operator (+, -, *, /)", "+");
 
-if(!isNaN(userInput_1) && !isNaN(userInput_2) && userInput_3){
-for(var i=0; i<=4; i++){
-  for(var j=0; j<=2; j++){
-    console.log(userInput_1, userInput_3, userInput_2);
-   if(userInput_3 === "+"){
-  console.log(sum(userInput_1, userInput_2));
-}
-  else if(userInput_3 === "-"){
-  console.log(sub(userInput_1, userInput_2));
-}
-   else if(userInput_3 === "*"){
-  console.log(mult(userInput_1, userInput_2));
-}
-  else if(userInput_3 === "/"){
-  console.log(div(userInput_1, userInput_2));
-}else{
-  console.log("Invalid");
-}
- }
-  }
-   }else{
-     console.log("Enter an Number and opreator!!");
-   }
-    }
-
-
-function city(){
-var arr = ['karachi', 'lahore'];
-var userInput = prompt("Enter Your City", 'karachi');
-var found = false;
-for(var i=0; i<=arr.length; i++){
-  if(arr[i] === userInput.toLowerCase){
-    console.log("I Also live in " +userInput.toLowerCase);
-    found = true;
-    break;
-  }
-}if(!found){
-  console.log("City Not Found");
-}
-}
+// if(!isNaN(userInput_1) && !isNaN(userInput_2) && userInput_3){
+// for(var i=0; i<=4; i++){
+//   for(var j=0; j<=2; j++){
+//     console.log(userInput_1, userInput_3, userInput_2);
+//    if(userInput_3 === "+"){
+//   console.log(sum(userInput_1, userInput_2));
+// }
+//   else if(userInput_3 === "-"){
+//   console.log(sub(userInput_1, userInput_2));
+// }
+//    else if(userInput_3 === "*"){
+//   console.log(mult(userInput_1, userInput_2));
+// }
+//   else if(userInput_3 === "/"){
+//   console.log(div(userInput_1, userInput_2));
+// }else{
+//   console.log("Invalid");
+// }
+//  }
+//   }
+//    }else{
+//      console.log("Enter an Number and opreator!!");
+//    }
+//     }
 
 
-// var an = 40;
-function print(){
-  an = 30;
-  console.log(an);
-  var an = 90;
-  console.log(an);
-}
+// function city(){
+// var arr = ['karachi', 'lahore'];
+// var userInput = prompt("Enter Your City", 'karachi');
+// var found = false;
+// for(var i=0; i<=arr.length; i++){
+//   if(arr[i] === userInput.toLowerCase){
+//     console.log("I Also live in " +userInput.toLowerCase);
+//     found = true;
+//     break;
+//   }
+// }if(!found){
+//   console.log("City Not Found");
+// }
+// }
 
 
-function favFruite(){
-var arr = ['grape', 'mango'];
-var found = false;
-var userInput = prompt("Enter Your Fav Fruite??".toLowerCase());
-for(var i=0; i<=arr.length; i++){
-  if(arr[i] === userInput.toLowerCase()){
-    console.log("I Also like "+userInput);
-    found = true;
-    break;
-  }
-}if(!found){
-  console.log(userInput+" Not Found");
-}
-}
+// // var an = 40;
+// function print(){
+//   an = 30;
+//   console.log(an);
+//   var an = 90;
+//   console.log(an);
+// }
+
+
+// function favFruite(){
+// var arr = ['grape', 'mango'];
+// var found = false;
+// var userInput = prompt("Enter Your Fav Fruite??".toLowerCase());
+// for(var i=0; i<=arr.length; i++){
+//   if(arr[i] === userInput.toLowerCase()){
+//     console.log("I Also like "+userInput);
+//     found = true;
+//     break;
+//   }
+// }if(!found){
+//   console.log(userInput+" Not Found");
+// }
+// }
 
 
 
-function image_1(){
-  var img = document.getElementById("image");
-  img.src = "https://media.ed.edmunds-media.com/bugatti/chiron/2024/fe/2024_bugatti_chiron_f34_fe_110424_1600.jpg";
-  img.style.width = "300px";
-  img.style.width = "500px"
-}
-function image_2(){
-  var img = document.getElementById("image");
-  img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdW9fs0zP55tUBL2eUdZjzABOjQn5QUVnZxg&s";
-  img.style.width = "300px"
-}
+
+// function add(a,b){
+//   return a + b;
+// }
+// function subt(a,b){
+//   return a - b;
+// }
+// function mult(a,b){
+//   return a * b;
+// }
+// function divided(a,b){
+//   return a / b;
+// }
+
+// let opreators = ["+", "-", "*", "/"];
+// let userInput1 = +prompt("Enter A number!");
+// let userInput2 = +prompt("Enter Another Number!");
+// let userInput3 = prompt("Enter Opreator (+, -, *, /)");
+
+// while(!opreators.includes(userInput3)){
+//   userInput1 = +prompt("Try Again1");
+//   userInput2 = +prompt("Try Again2");
+//   userInput3 = prompt("Try Again3");
+// }
+
+// switch(userInput3){
+//   case "+":
+//     console.log(add(userInput1, userInput2));
+//     break;
+//     case "-":
+//       console.log(subt(userInput1, userInput2));
+//       break;
+//       case "*":
+//         console.lo(mult(userInput1, userInput2));
+//         break;
+//         case "/":
+//           console.log(divided(userInput1, userInput2));
+//           break;
+//           default:
+//             console.log("Enter A opreator!");
+// }
+
+
+
+// function image_1(){
+//   var img1 = document.getElementById("image");
+//   img1.src="https://static.vecteezy.com/system/resources/thumbnails/057/289/111/small/smiling-anime-girl-amidst-cherry-blossoms-in-warm-golden-sunlight-free-photo.jpg";
+// }
+// function image_2(){
+//   var img2 = document.getElementById("image");
+//   img2.src="https://img.magnific.com/free-photo/lifestyle-scene-with-people-doing-regular-tasks-anime-style_23-2151002572.jpg";
+// }
+
+// function para(){
+//   var par = document.getElementById("para_1");
+//   para_1.innerText = "Font-end Developer of SMIT";
+// }
+// function para2(){
+//   para_1.innerText = "fugiat dolore nemo blanditiis esse praesentium, nesciunt labore! Nihil, voluptatem, fuga quisquam, minus porro accusamus ullam minima ratione iusto illo vitae, dicta natus. Error!";
+
+// }
+
 
